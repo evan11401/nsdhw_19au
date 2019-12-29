@@ -37,11 +37,8 @@ Once the CRF has been estimated, we can merge the exposure images into one HDR i
 Converting a High Dynamic Range (HDR) image to a 24-bit image while preserving as much detail as possible for display purposes. There are many methods that provide tone mapping, I decide to implement one or two method depend on the time.
 These methods also have some parameters that can adjust, so we need to find the best parameters combination.
 
+=> implement TonemapGamma
 => implement TonemapDrago
-
-=> implement TonemapReinhard
-
-=> find the best parameters combination
 
 
 ## Unittest
@@ -62,8 +59,7 @@ These methods also have some parameters that can adjust, so we need to find the 
     * [ ] calibrateDebevec(CRF in OpenCV) 
     * [ ] MergeDebevec(merge in OpenCV) 
     * [ ] TonemapDrago
-    * [ ] TonemapReinhard
-* [ ] find the best parameters combination
+    * [ ] TonemapGamma
 * [ ] testing the program
 
 
